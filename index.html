@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <title>Background Generator - Vanilla JS</title>
   </head>
@@ -24,8 +27,16 @@
           <input type="color" id="right" value="#00ffd0" />
         </div>
       </div>
-      <input type="range" id="range" value="50"/>
-      <label for="range">50</label>
+
+      <div class="range-container">
+        <input type="range" id="range" value="50" />
+        <label for="range">50</label>
+      </div>
+
+      <div class="range-container">
+        <input type="number" id="angle" value="90" />
+        <label for="angle">90°</label>
+      </div>
     </main>
 
     <script src="./index.js"></script>

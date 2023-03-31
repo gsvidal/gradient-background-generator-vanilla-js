@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  background: linear-gradient(to right, #4c028e, #009dff 20%, #00ffd0);
+  background: linear-gradient(90deg, #4c028e, #009dff 50%, #00ffd0);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
 }
 
 h1 {
@@ -23,4 +24,20 @@ label {
   flex-direction: column;
   align-items: center;
   margin: 20px;
+}
+
+.range-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type='number'],
+input#range {
+  margin-top: 30px;
+  width: 70px;
+}
+
+input[type='number'] {
+  text-align: center;
 }
